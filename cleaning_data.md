@@ -11,36 +11,36 @@ Note: Hotkey cmd+option+f opens find and replace, which is the best way to quick
 Queries:
 Below, provide the SQL queries you used to clean your data.
 ### Copying data to '_clean' tables
-```
+```SQL
 CREATE TABLE table_clean AS
 TABLE table
 ```
 ### Set null values to 0
-```
+```SQL
 UPDATE table_clean
 SET column = 0
 WHERE column IS null
 ```
 ### Set default values to null
-```
+```SQL
 UPDATE table_clean
 SET column = null
 WHERE column = 'default value'
 ```
 ### Check for values in a column
-```
+```SQL
 SELECT column 
 FROM table
 WHERE column
 	IS NOT null
 ```
 ### Drop a column
-```
+```SQL
 ALTER TABLE table_clean
 DROP COLUMN column
 ```
 ### Format monetary values 
-```
+```SQL
 UPDATE all_sessions_clean
 SET column = column/1000000
 ```
