@@ -1,17 +1,24 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-Make a project that is straight fire
+- Create a **postgresql database** of *ecommerce* data with **pgadmin4**
+- Develop insights on ecommerce data using **postgresql queries**
+- Document project parts with **markdown files**
+- Keep track of changes to project files with **git and gitHub**
 
 ## Process
-### (your step 1)
-### (your step 2)
+### 1. Clean data
+### 2. Answer provided questions
+### 3. Answer novel questions
+### 4. Validate answers
 
 ## Results
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
+- The top selling products are Nest brand products, making up four of the top 5.
+- Over 90% of sales revenue comes from the United States.
+- Exploration into correlations between webpage interaction and product orders/revenue can be made with the assumption that each row in *all_sessions* logs an interaction with a product.
 
 ## Challenges 
-(discuss challenges you faced in the project)
+Not having a dictionary to explain the data was the largest hurdle in drawing conclusions, and the biggest challenge to validation.
 
 ## Future Goals
-(what would you do if you had more time?)
+Without a dictionary the *ecommerce* data is unreliable. Moving forward it would be best to restructure the data collection process to provide clearer logs with more concise metrics.
