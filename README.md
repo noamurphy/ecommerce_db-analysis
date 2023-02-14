@@ -7,10 +7,10 @@
 - Keep track of changes to project files with **git and gitHub**
 
 ## Process
-### 1. Clean data
-### 2. Answer provided questions
-### 3. Answer novel questions
-### 4. Validate answers
+### 1. [Clean data](cleaning_data.md)
+### 2. [Answer provided questions](starting_with_questions.md)
+### 3. [Answer novel questions](starting_with_data.md)
+### 4. [Validate answers](QA.md)
 
 ## Results
 - The top selling products are Nest brand products, making up four of the top 5.
