@@ -1,4 +1,4 @@
-# Final-Project-Transforming-and-Analyzing-Data-with-SQL
+# Analysis of E-commerce with SQL
 
 ## Project/Goals
 - Create a **postgresql database** of *ecommerce* data with **pgadmin4**
